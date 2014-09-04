@@ -26,7 +26,7 @@ sources
 Setting list sources with resolution
 Example:
 
-..code-block::
+.. code-block:: none
 	"sources": {
         "type": "mp4",
         "qualities": [

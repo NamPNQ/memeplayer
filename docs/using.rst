@@ -3,17 +3,17 @@ Using Memeplayer
 
 To start using memeplayer. Fist import memeplayer.js in head tag
 
-.. code-block::html
+.. code-block:: html
 	<script src="http://memeplayer.com/release/memeplayer.js"></script>
 
 And create the div with id, example: demplayer
 
-.. code-block::html
+.. code-block:: html
 	<div id="demoplayer"></div>
 
 Config something, and call init function
 
-.. code-block::html
+.. code-block:: html
 	<script>
 	<script> 
 	var config = {

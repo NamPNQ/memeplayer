@@ -103,7 +103,7 @@ Example:
 thumb
 -----
 
-Default: 'html5.memeplayer.com/beta/thumbs.jpg'
+Default: '//html5.memeplayer.com/beta/thumbs.jpg'
 
 Thumbnails for video
 
@@ -111,8 +111,42 @@ Thumbnails for video
 styleSheet
 ----------
 
+Default: '////memeplayer.com/release/memeplayer.css'
+
+Link for custom css
+
 advertising
 -----------
+
+Default: {}
+
+Setting schedule for advertising
+
+Example
+
+.. code-block:: none
+
+	"advertising": {
+        "schedule": [
+            {
+                "position": "preroll",
+                "client": "adsense",
+                "tag": "Url tag"
+            },
+            {
+                "position": "midroll",
+                "client": "adsense",
+                "tag": "Url tag",
+                "offset": 5
+            },
+            {
+                "position": "postroll",
+                "client": "adsense",
+                "tag": "Url tag"
+            }
+        ]
+    }
+
 
 You can setting by hand in http://memeplayer.com/dashboard
 

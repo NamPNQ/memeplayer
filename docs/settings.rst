@@ -87,18 +87,18 @@ Example:
 .. code-block:: none
 
 	"sources": {
-        "type": "mp4",
-        "qualities": [
-            {
-                "resolution": 360,
-                "src": "Your video url"
-            },
-            {
-                "resolution": 480,
-                "src": "Your video url"
-            }
-        ]
-    }
+	    "type": "mp4",
+	    "qualities": [
+	        {
+	            "resolution": 360,
+	            "src": "Your video url"
+	        },
+	        {
+	            "resolution": 480,
+	            "src": "Your video url"
+	        }
+	    ]
+	}
 
 thumb
 -----
